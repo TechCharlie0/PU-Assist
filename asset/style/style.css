@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans";
+    text-transform: capitalize;
+
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #212934;
+}
+
+.pu-assist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.logo-div img {
+    width: 170px;
+}
+
+.nav-div ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+
+}
+
+.nav-div ul li a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-div ul li a:hover {
+    cursor: pointer;
+    color: blue;
+    border-bottom: 2px solid #212934;
+}
+
+.button-div button {
+    padding: 20px 30px;
+    color: #f45c20;
+    border: none;
+    border-radius: 13px;
+    background-color: #f8e9e2;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.button-div button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #f45c20;
+}
+
+.result-pu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+
+
+
+
+}
+
+.main-images img {
+    width: 500px;
+
+}
+
+.student-div {
+    width: 550px;
+}
+
+.companion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+
+}
+
+.student-div .companion img {
+    width: 60px;
+}
+
+.all-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.companion p {
+    font-size: larger;
+
+}
+
+.all-one h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+}
+
+.all-one p {
+    text-align: left;
+    font-size: larger;
+    padding-top: 20px;
+    line-height: 1.9rem;
+    color: #212934;
+
+}
