@@ -13,14 +13,13 @@ li {
 
 a {
     text-decoration: none;
-    color: #212934;
 }
 
 .pu-assist {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .logo-div img {
@@ -38,6 +37,8 @@ a {
 .nav-div ul li a {
     font-size: 18px;
     font-weight: 400;
+    color: #212934;
+
 }
 
 .nav-div ul li a:hover {
@@ -112,7 +113,8 @@ a {
 
 .all-one h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
+    font-family: syne-700;
 
 }
 
@@ -122,5 +124,203 @@ a {
     padding-top: 20px;
     line-height: 1.9rem;
     color: #212934;
+
+}
+
+.fortunate-pu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.fortunate-pu p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.sevenlogo-pu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.sevenlogo-pu img {
+    width: 60px;
+}
+
+.pu-div {
+    background-image: url(../image/banner-1.jpg);
+    background-size: cover;
+    height: 80vh;
+
+
+}
+
+.pu-div {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 40px;
+}
+
+.pu-div .growing {
+    height: 60vh;
+    width: 34vw;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.growing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.growing p a {
+    color: #0256ff;
+    font-weight: 400;
+    font-size: 18px;
+    list-style: 31px;
+
+}
+
+.growing h4 {
+    font-weight: 700;
+    font-size: 32px;
+    list-style: 42px;
+}
+
+.growing h5 {
+    width: 350px;
+    line-height: 31px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
+.syllabus {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pu-syllabus img {
+    width: 100px;
+}
+
+.pu-syllabus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+
+.pu-syllabus h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.pu-syllabus p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.timer img {
+    width: 100px;
+
+
+}
+
+.timer h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.timer p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    padding-top: 25px;
+
+
+}
+
+.question img {
+    width: 100px;
+
+}
+
+.question h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.question p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    padding-top: 25px;
+
+
+}
+
+.notice img {
+    width: 100px;
+
+}
+
+.notice h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.notice p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 
 }
