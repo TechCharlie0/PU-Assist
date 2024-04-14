@@ -158,6 +158,17 @@ a {
     justify-content: center;
     flex-direction: column;
     gap: 40px;
+    transition: transform 0.7s ease-in-out;
+
+
+}
+
+.growing:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
+
+
+
 }
 
 .growing p a {
@@ -186,6 +197,19 @@ a {
     align-items: center;
     justify-content: space-evenly;
     padding: 60px 0px;
+
+}
+
+.syllabus img {
+    transition: transform 0.7s ease-in-out;
+
+}
+
+.syllabus img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
+
+
 }
 
 .pu-syllabus img {
