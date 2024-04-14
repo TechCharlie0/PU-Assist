@@ -3,8 +3,7 @@
     margin: 0;
     font-family: "DM Sans";
     text-transform: capitalize;
-    color: #1f1e1e;
-
+    color: #464545;
 }
 
 li {
@@ -161,16 +160,11 @@ a {
     flex-direction: column;
     gap: 40px;
     transition: transform 0.7s ease-in-out;
-
-
 }
 
 .growing:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
-
-
-
 }
 
 .growing p a {
@@ -199,19 +193,15 @@ a {
     align-items: center;
     justify-content: space-evenly;
     padding: 60px 0px;
-
 }
 
 .syllabus img {
     transition: transform 0.7s ease-in-out;
-
 }
 
 .syllabus img:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
-
-
 }
 
 .pu-syllabus img {
@@ -382,12 +372,10 @@ a {
     height: 150px;
     border-radius: 10px;
     transition: transform 0.7s ease;
-
 }
 
 .two-div img:hover {
     transform: scale(1.1);
-
 }
 
 .improve-img p {
@@ -418,22 +406,17 @@ a {
 
     height: 600px;
     transition: transform 0.7s ease-in-out;
-
 }
 
 .ss-img img:hover {
     transform: scale(1.1);
-    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3)
+    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
 }
 
 @media only screen and (max-width: 900px) {
     .nav-div ul li {
         display: none;
-
     }
-
-
-
 
     .result-pu {
         display: flex;
@@ -459,7 +442,6 @@ a {
         justify-content: center;
         align-items: center;
         padding-bottom: 30px;
-
     }
 
     .student-div .companion img {
@@ -490,12 +472,11 @@ a {
         color: #212934;
     }
 
-
-
     .fortunate-pu {
         display: flex;
         align-items: center;
         justify-content: center;
+
         text-align: center;
         padding: 40px 0px;
     }
@@ -508,28 +489,177 @@ a {
 
     .sevenlogo-pu {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        flex-direction: column;
-        gap: 40px;
+        gap: 20px;
     }
 
     .sevenlogo-pu img {
-        width: 50px;
+        width: 40px;
     }
 
+    .syllabus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 60px 0px;
+    }
 
+    .question-answer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+
+    .img-question img {
+        width: 200px;
+        padding: 20px 0px;
+    }
+
+    .growing-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .growing-div p a {
+        color: #0256ff;
+        font-weight: 400;
+        font-size: 20px;
+        list-style: 31px;
+        text-align: center;
+    }
+
+    .growing-div h4 {
+        font-weight: 600;
+        font-size: 25px;
+        list-style: 42px;
+        text-align: center;
+    }
+
+    .growing-div h5 {
+        text-align: center;
+        width: 350px;
+        line-height: 21px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .recent-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .two-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px 0px;
+    }
+
+    .two-div img {
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        transition: transform 0.7s ease;
+    }
+
+    .two-div img:hover {
+        transform: scale(1.1);
+    }
+
+    .improve-img p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 31px;
+        text-align: center;
+    }
+
+    .flutter p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 31px;
+        text-align: center;
+    }
+
+    .ss-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ss-img img {
+        border-radius: 10px;
+        height: 600px;
+    }
+
+    /* ani pu-div ko chai yeta lekheko xu birsera */
 
     .pu-div {
-        display: none;
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 40px;
     }
 
+    .pu-div .growing {
+        height: 60vh;
+        width: 74vw;
+        background-color: white;
+        border-radius: 10px;
+    }
 
+    .growing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+        transition: transform 0.7s ease-in-out;
+    }
 
+    .growing p a {
+        color: #0256ff;
+        font-weight: 400;
+        font-size: 18px;
+        list-style: 31px;
+    }
 
+    .growing h4 {
+        font-weight: 700;
+        font-size: 28px;
+        list-style: 42px;
+        text-align: center;
+    }
 
+    .growing h5 {
+        width: 250px;
+        text-align: center;
+        line-height: 28px;
+        font-weight: 400;
+        font-size: 18px;
+    }
 
+    /* button div ko yeta lekheko birsera */
 
-
+    .button-div button {
+        padding: 10px 20px;
+        color: #f45c20;
+        border: none;
+        border-radius: 13px;
+        background-color: #f8e9e2;
+        font-weight: 500;
+        font-size: 18px;
+    }
 }
