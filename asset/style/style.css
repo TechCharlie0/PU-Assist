@@ -355,6 +355,13 @@ a {
     width: 350px;
     height: 150px;
     border-radius: 10px;
+    transition: transform 0.7s ease;
+
+}
+
+.two-div img:hover {
+    transform: scale(1.1);
+
 }
 
 .improve-img p {
@@ -374,15 +381,18 @@ a {
 .ss-img {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 40px 0px;
+    overflow: hidden;
+    position: relative;
 }
 
 .ss-img img {
     height: 700px;
+    transition: transform 0.7s ease;
+
 }
 
 .ss-img img:hover {
     transform: scale(1.1);
-    transition: transform 0.2s ease-out;
 }
