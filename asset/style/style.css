@@ -423,6 +423,113 @@ a {
 
 .ss-img img:hover {
     transform: scale(1.1);
-    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
+    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3)
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-div ul li {
+        display: none;
+
+    }
+
+
+
+
+    .result-pu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-images {
+        padding: 10px 0px;
+    }
+
+    .main-images img {
+        width: 200px;
+    }
+
+    .student-div {
+        width: 300px;
+    }
+
+    .companion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+
+    }
+
+    .student-div .companion img {
+        width: 50px;
+    }
+
+    .all-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .companion p {
+        font-size: larger;
+    }
+
+    .all-one h1 {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .all-one p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.5rem;
+        color: #212934;
+    }
+
+
+
+    .fortunate-pu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    .fortunate-pu p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .sevenlogo-pu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sevenlogo-pu img {
+        width: 50px;
+    }
+
+
+
+    .pu-div {
+        display: none;
+
+    }
+
+
+
+
+
+
+
 
 }
