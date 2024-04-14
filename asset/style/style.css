@@ -412,11 +412,15 @@ a {
 }
 
 .ss-img img {
-    height: 700px;
-    transition: transform 0.7s ease;
+    border-radius: 10px;
+
+    height: 600px;
+    transition: transform 0.7s ease-in-out;
 
 }
 
 .ss-img img:hover {
     transform: scale(1.1);
+    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
+
 }
