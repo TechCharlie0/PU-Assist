@@ -414,7 +414,6 @@ a {
 }
 
 .foott {
-    background-color: #073763;
     padding: 50px;
 }
 
@@ -434,10 +433,9 @@ a {
 
 .first-div p {
     height: 90px;
-    width: 405px;
-    color: #fff;
+    width: 400px;
 
-    font-size: 16px;
+    font-size: 20px;
     line-height: 25px;
 }
 
@@ -456,12 +454,20 @@ a {
     line-height: 2;
 }
 
+.about a {
+    font-size: 18px;
+}
+
 .quick li {
     padding: 5px;
     line-height: 2;
 }
 
-.dunoacademy li {
+.quick a {
+    font-size: 18px;
+}
+
+.sd-web li {
     padding: 5px;
 }
 
@@ -475,13 +481,13 @@ a {
     margin-bottom: 30px;
 }
 
-.dunoacademy {
+.sd-web {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.dunoacademy img {
+.sd-web img {
     height: 3rem;
     margin: 0px 15px;
     border-radius: 5px;
