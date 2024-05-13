@@ -413,6 +413,103 @@ a {
     box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
 }
 
+.foott {
+    background-color: #073763;
+    padding: 50px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.first-div {
+    padding: 10px;
+}
+
+.first-div img {
+    padding-bottom: 10px;
+}
+
+.first-div p {
+    height: 90px;
+    width: 405px;
+    color: #fff;
+
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.head-second-div h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.second-div:hover {
+    cursor: pointer;
+    color: #141414;
+}
+
+.about li {
+    padding: 5px;
+    line-height: 2;
+}
+
+.quick li {
+    padding: 5px;
+    line-height: 2;
+}
+
+.dunoacademy li {
+    padding: 5px;
+}
+
+.links-second-div h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.payment-forth-div h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.dunoacademy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dunoacademy img {
+    height: 3rem;
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 900px) {
     .nav-div ul li {
         display: none;
