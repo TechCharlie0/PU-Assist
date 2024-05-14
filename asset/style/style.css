@@ -474,8 +474,10 @@ a {
     font-size: 18px;
 }
 
-.quick li:hover {
+.quick li a:hover {
     cursor: pointer;
+    color: #0256ff;
+
     border-bottom: 2px solid #464545;
 }
 
