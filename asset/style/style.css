@@ -415,7 +415,6 @@ a {
 
 .foott {
     padding: 50px;
-
 }
 
 .foot {
@@ -506,29 +505,6 @@ a {
     margin: 0px 15px;
     border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 900px) {
     .nav-div ul li {
