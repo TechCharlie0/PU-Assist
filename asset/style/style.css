@@ -415,6 +415,7 @@ a {
 
 .foott {
     padding: 50px;
+
 }
 
 .foot {
@@ -465,6 +466,11 @@ a {
 
 .quick a {
     font-size: 18px;
+}
+
+.quick a :hover {
+    cursor: pointer;
+    border-bottom: 2px solid #464545;
 }
 
 .sd-web li {
