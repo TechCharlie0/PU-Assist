@@ -459,8 +459,9 @@ a {
     font-size: 18px;
 }
 
-.about li:hover {
+.about li a:hover {
     cursor: pointer;
+    color: #0256ff;
     border-bottom: 2px solid #464545;
 }
 
