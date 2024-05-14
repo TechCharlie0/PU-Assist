@@ -459,6 +459,11 @@ a {
     font-size: 18px;
 }
 
+.about li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #464545;
+}
+
 .quick li {
     padding: 5px;
     line-height: 2;
@@ -468,7 +473,7 @@ a {
     font-size: 18px;
 }
 
-.quick a :hover {
+.quick li:hover {
     cursor: pointer;
     border-bottom: 2px solid #464545;
 }
