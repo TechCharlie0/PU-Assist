@@ -763,4 +763,11 @@ a {
         flex-direction: column;
 
     }
+
+    .first-div p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
