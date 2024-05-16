@@ -769,5 +769,14 @@ a {
         justify-content: center;
         align-items: center;
         text-align: center;
+        font-size: 15px;
+        padding: 20px 0px 0px 20px;
+    }
+
+    .first-div img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
     }
 }
