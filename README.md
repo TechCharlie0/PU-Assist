@@ -10,7 +10,7 @@ PU Assist is a web application designed to streamline various administrative tas
 
 You can access a live demo of this project [here](https://techcharlie0.github.io/PU-Assist/).
 
-!(![Macbook-Air-127 0 0 1 (2)](https://github.com/TechCharlie0/PU-Assist/assets/166296560/609b6e4b-9637-422f-82c4-6b3eabbc4c2f)
+![Macbook-Air-127 0 0 1 (2)](https://github.com/TechCharlie0/PU-Assist/assets/166296560/609b6e4b-9637-422f-82c4-6b3eabbc4c2f)
 
 
 
